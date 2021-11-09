@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{C2F5D08A-299D-46A9-B333-998A9A95A8B4}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{6038A1F5-DB07-4E52-9E55-6A6DE4F0BC17}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{48E09FE0-0252-4588-A2CC-B206116CEF5C}">
+								<Image FileName="-1728073570" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageShop" Key="{374CAF67-A16E-4961-A7D5-F7ADAC23EF39}">
+								<Image FileName="-1728073570" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete14/smartstore" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{5BE74960-3EF4-4A57-875D-A0A9F2DCEDE5}">
+										<Image FileName="-1728073570" Left="0" Top="71" Right="1903" Bottom="266" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;USD&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navUsd" Key="{309E28CC-ADB6-40E5-AFBD-E6E73A6366E5}">
+										<Image FileName="-1728073570" Left="397" Top="71" Right="1507" Bottom="113" />
+										<TypeInfo Item0="{DF37DD67-7F3B-4160-9F13-F76304DBE23D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;USD&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSearch" Key="{09D7AA94-D548-4CF8-AE60-CFDA6DB149BF}">
+										<Image FileName="556899445" Left="654" Top="139" Right="1198" Bottom="182" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;search&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;instasearch-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//header//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInstasearch" Key="{2527240B-D50E-4883-BE5A-E8662D859489}">
+										<Image FileName="556899445" Left="654" Top="139" Right="1198" Bottom="182" />
+										<TypeInfo Item0="{D0F303B5-CC1F-413C-8097-257C76F9379C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#instasearch" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;q&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;instasearch-term&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkOfficialGame" Key="{667170A4-0D31-444F-B886-87235A7254DE}">
+										<Image FileName="667959070" Left="408" Top="342" Right="1197" Bottom="398" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Official game&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;instasearch-hit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOfficialGame" Key="{A177225A-F3D6-45CD-BBC3-C78D2D6F821E}">
+										<Image FileName="667959070" Left="476" Top="350" Right="644" Bottom="368" />
+										<TypeInfo Item0="{DF37DD67-7F3B-4160-9F13-F76304DBE23D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Official game&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;header&apos;]//ul/li[3]/a//span[2]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[3]/a//span[2]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTorfabrikOfficialGameBall" Key="{5BA85A1D-A347-4771-A09B-E3D52C309E76}">
+								<Image FileName="-1728073570" Left="0" Top="71" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{FE4CA279-0021-4AF0-B01A-7FCECBF3B2AB}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete14/smartstore/torfabrik-official-game-ball" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{73857A82-07A5-4007-8321-F881409C456B}">
+										<Image FileName="-1225233906" Left="382" Top="290" Right="1522" Bottom="1582" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Sports&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleOfficialGameBall" Key="{3C03F65E-71BC-4E9D-98B3-DA0122D4B62B}">
+										<Image FileName="-1225233906" Left="397" Top="333" Right="1507" Bottom="1195" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Official game ball&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[contains(@class, &apos;pd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="asideOfficialGameBall" Key="{0CBAB02E-BD1B-4E6B-A08F-C64B7B8BD52B}">
+										<Image FileName="-1225233906" Left="1046" Top="333" Right="1521" Bottom="988" />
+										<Selectors>
+											<Selector>
+												<Value Value="//aside[contains(., &apos;Official game ball&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//aside[contains(@class, &apos;col-12&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//aside" />
+											</Selector>
+											<Selector>
+												<Value Value="//section/aside" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelAvailableInDifferentColors" Key="{54C14273-FA86-4951-962D-CCA8649C2544}">
+										<Image FileName="-1225233906" Left="1061" Top="366" Right="1506" Bottom="384" />
+										<TypeInfo Item0="{DF37DD67-7F3B-4160-9F13-F76304DBE23D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Available in different colors&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pd-description&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//aside/div/div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article//form/section/aside//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeOfficialGameBall" Key="{0435CB04-D580-4FD1-B233-4D301717A1C9}">
+										<Image FileName="-1918874051" Left="1061" Top="333" Right="1506" Bottom="356" />
+										<TypeInfo Item0="{DF37DD67-7F3B-4160-9F13-F76304DBE23D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(text(), &apos;Official game ball&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;pd-name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;pd-form&apos;]//h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{6038A1F5-DB07-4E52-9E55-6A6DE4F0BC17}">
+			<Child Name="BrowserWindow" Owner="{48E09FE0-0252-4588-A2CC-B206116CEF5C}" />
+			<Child Name="pageShop" Owner="{374CAF67-A16E-4961-A7D5-F7ADAC23EF39}">
+				<Child Name="header" Owner="{5BE74960-3EF4-4A57-875D-A0A9F2DCEDE5}">
+					<Child Name="navUsd" Owner="{309E28CC-ADB6-40E5-AFBD-E6E73A6366E5}" />
+					<Child Name="formSearch" Owner="{09D7AA94-D548-4CF8-AE60-CFDA6DB149BF}">
+						<Child Name="textboxInstasearch" Owner="{2527240B-D50E-4883-BE5A-E8662D859489}" />
+						<Child Name="linkOfficialGame" Owner="{667170A4-0D31-444F-B886-87235A7254DE}">
+							<Child Name="textnodeOfficialGame" Owner="{A177225A-F3D6-45CD-BBC3-C78D2D6F821E}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageTorfabrikOfficialGameBall" Owner="{5BA85A1D-A347-4771-A09B-E3D52C309E76}">
+				<Child Name="sectionContent" Owner="{73857A82-07A5-4007-8321-F881409C456B}">
+					<Child Name="articleOfficialGameBall" Owner="{3C03F65E-71BC-4E9D-98B3-DA0122D4B62B}">
+						<Child Name="asideOfficialGameBall" Owner="{0CBAB02E-BD1B-4E6B-A08F-C64B7B8BD52B}">
+							<Child Name="panelAvailableInDifferentColors" Owner="{54C14273-FA86-4951-962D-CCA8649C2544}" />
+							<Child Name="textnodeOfficialGameBall" Owner="{0435CB04-D580-4FD1-B233-4D301717A1C9}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
